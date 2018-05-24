@@ -1,0 +1,122 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: £gVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: C C, C, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.25.2.0
+Toolchain Path:  C:\Keil_v5_M0_NEW\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DARMCM1.DLL V1.19.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TARMCM1.DLL V1.14.0.0
+ 
+<h2>Project:</h2>
+C:\Users\YVTC\Desktop\ARM_M0_NEW\Projects\STM32_BT\BT.uvprojx
+Project File Date:  04/25/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5_M0_NEW\ARM\ARMCC\Bin'
+Rebuild target 'STM32'
+compiling usart_user.c...
+usart_user.c(111): warning:  #1-D: last line of file ends without a newline
+   
+usart_user.c: 1 warning, 0 errors
+compiling main.c...
+main.c(13): warning:  #1295-D: Deprecated declaration LCD_main - give arg types
+  extern void LCD_main();
+main.c(14): warning:  #1295-D: Deprecated declaration LCD_Clear - give arg types
+  extern void LCD_Clear();
+main.c(620): warning:  #1-D: last line of file ends without a newline
+  	*/
+main.c: 3 warnings, 0 errors
+compiling car_control.c...
+car_control.c(216): warning:  #1-D: last line of file ends without a newline
+  */
+car_control.c: 1 warning, 0 errors
+compiling LCD_main.c...
+LCD_main.c(78): warning:  #940-D: missing return statement at end of non-void function "LCD_main" 
+  }
+LCD_main.c(69): warning:  #177-D: variable "char_len"  was declared but never referenced
+  	uint8_t char_len,i;
+LCD_main.c(69): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t char_len,i;
+LCD_main.c(70): warning:  #177-D: variable "data"  was declared but never referenced
+  	char data;
+LCD_main.c: 4 warnings, 0 errors
+compiling LCD_control.c...
+compiling Melody_main.c...
+Melody_main.c(51): warning:  #9-D: nested comment is not allowed
+  	/*config SYSCFG EXTI
+Melody_main.c(71): warning:  #9-D: nested comment is not allowed
+  	/*config SYSCFG EXTI
+Melody_main.c(142): warning:  #9-D: nested comment is not allowed
+  /*--------------------------------------------------------------------------------*/
+Melody_main.c(198): warning:  #9-D: nested comment is not allowed
+  /*--------------------------------------------------------------------------------*/
+Melody_main.c(317): warning:  #177-D: variable "ToneHz"  was declared but never referenced
+  	uint32_t ToneHz[]={0,131,147,165,175,196,220,247,261,294,329,349,392,440,493,523,587,659,698,784,880,988};
+Melody_main.c(436): warning:  #177-D: variable "i"  was declared but never referenced
+  	int i;
+Melody_main.c(498): warning:  #1-D: last line of file ends without a newline
+  */
+Melody_main.c: 7 warnings, 0 errors
+assembling startup_stm32f072xb.s...
+compiling retarget_io.c...
+compiling system_stm32f0xx.c...
+linking...
+Program Size: Code=4852 RO-data=892 RW-data=116 ZI-data=1028  
+".\Objects\BT.axf" - 0 Error(s), 16 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.3.0.pack
+                ARM.CMSIS.5.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.ARM_Compiler.1.4.0.pack
+                Keil.ARM_Compiler.1.4.0
+                Keil ARM Compiler extensions for ARM Compiler 5 and ARM Compiler 6
+   * Component: STDOUT Variant: User Version: 1.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F0xx_DFP.1.5.0.pack
+                Keil.STM32F0xx_DFP.1.5.0
+                STMicroelectronics STM32F0 Series Device Support and Examples
+   * Component: Startup Version: 2.2.3
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_STM32
+  C:\Keil_v5_M0_NEW\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+  C:\Keil_v5_M0_NEW\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.1
+
+   * Component: Keil.ARM Compiler::Compiler:I/O:STDOUT:User:1.4.0
+      Source file:   Template\stdout_user.c
+      Source file:   Template\stdout_USART.c
+      Source file:   Source\retarget_io.c
+      Source file:   Template\stdout_display.c
+
+   * Component: Keil::Device:Startup:2.2.3
+      Source file:   Device\Source\system_stm32f0xx.c
+      Source file:   Device\Source\ARM\startup_stm32f072xb.s
+      Source file:   Device\Source\ARM\STM32F0xx_OPT.s
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

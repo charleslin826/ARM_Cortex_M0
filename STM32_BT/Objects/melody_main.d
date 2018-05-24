@@ -1,0 +1,12 @@
+.\objects\melody_main.o: Melody_main.c
+.\objects\melody_main.o: C:\Keil_v5_M0_NEW\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\melody_main.o: C:\Keil_v5_M0_NEW\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\melody_main.o: C:\Keil_v5_M0_NEW\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f0xx.h
+.\objects\melody_main.o: C:\Keil_v5_M0_NEW\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include\stm32f072xb.h
+.\objects\melody_main.o: C:\Keil_v5_M0_NEW\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\core_cm0.h
+.\objects\melody_main.o: C:\Keil_v5_M0_NEW\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\melody_main.o: C:\Keil_v5_M0_NEW\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_version.h
+.\objects\melody_main.o: C:\Keil_v5_M0_NEW\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
+.\objects\melody_main.o: C:\Keil_v5_M0_NEW\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
+.\objects\melody_main.o: C:\Keil_v5_M0_NEW\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include\system_stm32f0xx.h
+.\objects\melody_main.o: .\RTE\_STM32\RTE_Components.h

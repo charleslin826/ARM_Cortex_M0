@@ -1,0 +1,10 @@
+--cpu Cortex-M0
+".\objects\led_control.o"
+".\objects\usart_user.o"
+".\objects\retarget_io.o"
+".\objects\startup_stm32f072xb.o"
+".\objects\system_stm32f0xx.o"
+--library_type=microlib --strict --scatter ".\Objects\LED_control.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\LED_control.map" -o .\Objects\LED_control.axf
